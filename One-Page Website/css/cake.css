@@ -1,0 +1,72 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50;
+    -webkit-tap-highlight-color: black;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body{
+    font-size: 14px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.42857143;
+    color: #cc6fc4;
+    background-color: #fff;
+}
+footer,
+nav {
+    display: block;
+}
+h1, h2, h3 {
+    font-family:cursive;
+}
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto; /*center aligment */
+    content: "";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#home {
+    background: url(../cakes/cake_3.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; 
+    padding-bottom: 500px; 
+    color: #000000;
+}
+/*------------------------
+    PHOTO AND TEXT
+------------------------*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  div{
+    text-align: center;
+  }
+  /*-----------------------
+    MENU
+------------------------*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #fae5f2;
+    border: 1px solid #555;
+  }
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
